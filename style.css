@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* .heading{
+    text-align: center;
+    font-family:fantasy;
+    color:darkkhaki;
+    /* display:inline; */
+    /* border:1px solid red; 
+    font-size:3rem;
+} */
+.wrapper{
+    display: flex;
+    /* border:1px solid red; */
+    width: max-content;
+    position: absolute;
+    flex-direction:column;
+    top: 35%;
+    left:50%;
+    transform: translate(-50%);   
+}
+.dice-board{
+    display:flex;
+}
+.combo h1{
+    font-family:monospace;
+    text-align: center;
+    /* border:1px solid black; */
+    margin-bottom:3px;
+}
+.dice{
+    border-radius:10px;
+}
+ .dice1{
+    margin-right:2rem;
+}
+
+.dice{
+    width:200px;
+    height:200px;
+    background-color:maroon;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.winner{
+    text-align:center;
+    font-family:monospace;
+    margin-top:5px;
+}
+.dot{
+    width:50px;
+    height:50px;
+    background-color:#fff;
+    margin:5px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
